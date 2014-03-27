@@ -52,7 +52,7 @@ define(function (require, exports, module) {
 
     // Then create a menu item bound to the command
     // The label of the menu item is the name we gave the command (see above)
-    var menu = Menus.getMenu(Menus.AppMenuBar.FILE_MENU);
+    var menu = Menus.getMenu(Menus.AppMenuBar.EDIT_MENU);
     menu.addMenuItem(MY_COMMAND_ID, "Ctrl-Shift-P");
 
     exports.prettyJson = prettyJson;
